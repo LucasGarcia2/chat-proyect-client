@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import './chatClient.css';
+import './ChatClient.css';
 import io from 'socket.io-client';
 import Picker from 'emoji-picker-react'
 
-const socket = io('http://localhost:4000');
+const socket = io('https://lucas-garcia-chatproyect.onrender.com/');
 
 export const ChatClient = () => {
 
