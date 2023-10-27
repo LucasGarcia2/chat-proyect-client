@@ -3,7 +3,7 @@ import './ChatClient.css';
 import io from 'socket.io-client';
 import Picker from 'emoji-picker-react'
 
-const socket = io('https://lucas-garcia-chatproyect.onrender.com/');
+const socket = io('https://lucasgarcia-chatproyect-server.onrender.com/');
 
 export const ChatClient = () => {
 
